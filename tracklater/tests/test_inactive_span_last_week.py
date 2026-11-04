@@ -13,7 +13,6 @@ real database. Regenerate:
 import pytest
 
 from tracklater import create_app
-from tracklater.database import db
 from tracklater.models import Entry
 from tracklater.work_inference import (
     MIN_WORK_BEFORE_COMMIT,

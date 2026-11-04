@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 
 import pytest
-import requests_mock
 
 from tracklater.timemodules.activitywatch import (
     NOT_AFK_LABEL,
